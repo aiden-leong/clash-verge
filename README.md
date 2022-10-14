@@ -25,6 +25,12 @@ Or you can build it yourself. Supports Windows, Linux and macOS 10.15+
 
 Notes: If you could not start the app on Windows, please check that you have [Webview2](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section) installed.
 
+### Mac OS
+Run above command in Terminal to remove quarantine.
+```
+sudo xattr -rd com.apple.quarantine /Applications/Clash\ Verge.app
+```
+
 ## Development
 
 You should install Rust and Nodejs, see [here](https://tauri.studio/docs/getting-started/prerequisites) for more details. Then install Nodejs packages.
